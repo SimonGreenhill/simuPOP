@@ -93,7 +93,7 @@ from simuPOP import ALL_AVAIL, Pedigree, OUTBRED_SPOUSE, COMMON_OFFSPRING, FEMAL
 
 import random
 def random_shuffle(x):
-    random.shuffle(x, getRNG().randUniform)
+    random.shuffle(x)
 
 def isSequence(obj):
     return hasattr(obj, '__iter__')
